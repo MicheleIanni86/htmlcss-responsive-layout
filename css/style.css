@@ -182,8 +182,14 @@
     }
 
     /* SEZIONE strategies */
+    #testimonials .card-test {
+        display: block;
+        margin: 15px 0;
+        text-align: center;
+    }
 
-
+    .card-test .descriptions-test {
+        margin-left: 0px;
+    }
 
 }
-

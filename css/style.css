@@ -113,6 +113,30 @@
 
 
 
+/* SECTION TESTIMONIALS */
+#testimonials .intro {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 50px;
+  }
+
+#testimonials .card-test {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 35px 0;
+    background-color: var(--primary-color);
+}
+
+.card-test .descriptions-test {
+    margin-left: 15px;
+    color: white;
+}
+
+
+
+
+
 
 /* MEDIA QUERY */
 

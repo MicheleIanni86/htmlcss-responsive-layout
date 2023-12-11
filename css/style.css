@@ -213,8 +213,25 @@
 }
 
 
+/* SECTION STARTER */
+#starter {
+    background-color: #9792e4;
+}
 
+#starter .container {
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}
 
+#starter .container h1 {
+    font-size: 4rem;
+    color: #fdc15f;
+}
+
+#starter .container > * {
+    margin: 10px 0px;
+}
 
 
 

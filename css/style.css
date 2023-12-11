@@ -86,10 +86,40 @@
 }
 
 
+
+/* SECTION STRATEGIES */
+#strategies {
+    background-color: var(--primary-color);
+}
+
+#strategies .container {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#strategies .container .planning,
+#strategies .container .app {
+    background-color: var(--bgr-card);
+    padding: 15px;
+    width: 100%;   
+}
+
+#strategies .container .app {
+    text-align: center;
+}
+
+
+
+
 /* MEDIA QUERY */
 
 /* TABLET 768PX */
 @media  screen and (max-width: 768px) {
+    
+    /* SEZIONE demo-app */
     #demo-app .col:first-child .card {
         display: block;
     }
@@ -98,16 +128,37 @@
         width: 100%;
         padding: 15px 0px;
     }
+
+    /* SEZIONE strategies */
+    #strategies .container {
+        display: block;
+    }
+
+    #strategies .container .planning,
+    #strategies .container .app {
+        width: 100%;
+        margin: 15px 0;   
 }
+
+
+
+}
+
+
 
 
 
 /* MOBILE 480px */
 @media  screen and (max-width: 480px) {
+
+    /* SEZIONE demo-app */
     #demo-app .col:first-child, 
     #demo-app .col {
         width: 100%;
     }
+
+    /* SEZIONE strategies */
+
 
 
 }

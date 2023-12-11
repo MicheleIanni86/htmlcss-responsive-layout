@@ -163,6 +163,63 @@
 }
 
 
+/* SECTION ABOUT US */
+#about-us > .container {
+    display: flex;
+    margin: 30px auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap: 35px;
+}
+
+#about-us > .container > .about-us-left {
+    width: 60%;
+}
+
+.about-us-left :nth-child(2) {
+    line-height: 30px;
+    margin-top: 15px;
+
+}
+
+.about-us-left :nth-child(3) {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.about-us-right {
+    position: relative;
+    width: 40%;
+}
+
+.about-us-right :nth-child(2) {
+    position: absolute;
+    font-size: 100px;
+    top: -50px;
+    right: 5px;
+}
+
+.about-us-right h3 {
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.about-us-right button {
+    margin: 15px 0px;
+}
+
+.about-us-right > img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERY */

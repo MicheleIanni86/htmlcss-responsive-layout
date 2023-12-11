@@ -1,6 +1,41 @@
+/* ROOT */
+:root {
+    --primary-color: #9792e4;
+    --secondary-color: #0084fd;
+    --bgr-card: #b5ddff;
+}
+
 /* GENERICS SETS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/* UTILS */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* HEADER */
+
+#header {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header > .container >.logo,
+#header > .container > nav {
+    padding: 25px;
+    background-color: var(--bgr-card);
 }

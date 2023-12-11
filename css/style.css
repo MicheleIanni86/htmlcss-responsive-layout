@@ -189,7 +189,12 @@
     #strategies .container .app {
         width: 100%;
         margin: 15px 0;   
-}
+    }
+
+    /* SEZIONE benefits */
+    #benefits .col {
+        width: calc(100% / 2);
+    }
 
 
 
@@ -217,6 +222,11 @@
 
     .card-test .descriptions-test {
         margin-left: 0px;
+    }
+
+    /* SEZIONE benefits */
+    #benefits .col {
+        width: 100%;
     }
 
 }

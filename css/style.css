@@ -557,6 +557,12 @@ nav div :last-child {
         width: calc(100% / 2);
     }
 
+    /* SEZIONE about us */
+    #about-us .box-img p {
+        top: -50px;
+        right: 78px;
+    }
+
     /* SEZIONE starter */
     #starter .container {
         width: 75%;
@@ -618,6 +624,11 @@ nav div :last-child {
 
     #about-us > .container > .about-us-right {
         margin-top: 70px;
+    }
+
+    #about-us .box-img p {
+        top: -32px;
+        right: 170px;
     }
 
     /* SEZIONE starter */

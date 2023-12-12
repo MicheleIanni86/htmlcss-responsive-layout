@@ -329,11 +329,15 @@ nav div :last-child {
 
 #benefits {
     background-color: var(--primary-color);
+    padding-bottom: 40px;
 }
 
 #benefits > .container > h2 {
     text-align: center;
-    padding: 40px 0px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 50px;
 }
 
 #benefits .col {
@@ -341,8 +345,9 @@ nav div :last-child {
 }
 
 #benefits .card {
-    background-color: var(--bgr-card);
-    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 35px;
     height: 100%;
 }
 
@@ -353,6 +358,34 @@ nav div :last-child {
     margin: 20px 0px;
 }
 
+#benefits .card h1 {
+    color: var(--primary-color);
+    font-size: 80px;
+}
+
+#benefits .card h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+#benefits .card p {
+    color: var(--text-gray);
+    line-height: 30px;
+    font-size: 17px;
+}
+
+#benefits .card button {
+    border: none;
+    background-color: var(--primary-color);
+    font-size: large;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+#benefits .card button a {
+    text-decoration: none;
+    color: white;
+}
 
 /* SECTION ABOUT US */
 #about-us > .container {
@@ -482,7 +515,7 @@ nav div :last-child {
     #testimonials .card-test .img-test {
         width: 25%;
     }
-    
+
     /* SEZIONE benefits */
     #benefits .col {
         width: calc(100% / 2);

@@ -4,6 +4,7 @@
     --secondary-color: #0084fd;
     --bgr-card: #b5ddff;
     --footer-color: #333333;
+    --text-gray: #5a6e7f;
 }
 
 /* GENERICS SETS */
@@ -28,6 +29,8 @@
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .col {
@@ -96,21 +99,85 @@ nav div :last-child {
     width: calc(100% / 3 * 2);
 }
 
-#demo-app .col:first-child .card {
-    display: flex;
-}
-
 #demo-app .col:first-child .card-left,
 #demo-app .col:first-child .card-right {
     width: 50%;
 }
 
+.card-right > img {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    bottom: -34px;
+}
 
 #demo-app .card {
+    display: flex;
     background-color: var(--bgr-card);
-    padding: 15px;
+    padding: 30px 30px;
     height: 100%;
+    border-radius: 25px;
 }
+
+#demo-app .card-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#demo-app .card-left h3 {
+    color: var(--secondary-color); 
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+#demo-app .card-left p {
+    color: var(--text-gray);
+    font-weight: bold;
+    line-height: 2rem;
+    
+}
+
+#demo-app .card-left button {
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 60px;
+    width: fit-content;
+    border-radius: 25px;
+}
+
+#demo-app .card-right {
+    position: relative;
+}
+
+#demo-app .card-1-3 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.card-1-3 :first-child {
+    color: var(--secondary-color);
+    font-size: 80px;
+}
+
+.card-1-3 h3 {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.card-1-3 p {
+    color: var(--text-gray);
+    font-weight: bold;
+    line-height: 35px;
+}
+
+
 
 
 
@@ -293,7 +360,7 @@ nav div :last-child {
     #nav-header {
         display: none;
     }
-    
+
     /* SEZIONE demo-app */
     #demo-app .col:first-child .card {
         display: block;

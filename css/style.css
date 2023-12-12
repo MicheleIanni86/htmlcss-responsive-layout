@@ -139,15 +139,19 @@ nav div :last-child {
     
 }
 
-#demo-app .card-left button {
+#demo-app .card-left .btn-apple {
     border: none;
     background-color: var(--secondary-color);
-    color: white;
     font-weight: bold;
     font-size: 1rem;
     padding: 15px 60px;
     width: fit-content;
     border-radius: 25px;
+}
+
+#demo-app .card-left .btn-apple a {
+    color: white;
+    text-decoration: none;
 }
 
 #demo-app .card-right {

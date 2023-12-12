@@ -81,6 +81,11 @@ ul#nav-header li a {
     border-radius: 20px;
 }
 
+nav div :last-child {
+    font-size: 30px;
+    line-height: 80px;
+}
+
 
 /* SECTION DEMO APP */
 #demo-app .col {
@@ -283,6 +288,11 @@ ul#nav-header li a {
 
 /* TABLET 768PX */
 @media  screen and (max-width: 768px) {
+
+    /* SEZIONE header */
+    #nav-header {
+        display: none;
+    }
     
     /* SEZIONE demo-app */
     #demo-app .col:first-child .card {

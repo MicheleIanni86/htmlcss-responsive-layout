@@ -283,7 +283,7 @@ nav div :last-child {
 
 #testimonials .card-test .img-test {
     width: 15%;
-
+    align-self: center;
 }
 
 .img-test img {
@@ -478,6 +478,11 @@ nav div :last-child {
         margin: 15px 0;   
     }
 
+    /* SEZIONE testimonials */
+    #testimonials .card-test .img-test {
+        width: 25%;
+    }
+    
     /* SEZIONE benefits */
     #benefits .col {
         width: calc(100% / 2);
@@ -520,6 +525,15 @@ nav div :last-child {
 
     .card-test .descriptions-test {
         margin-left: 0px;
+    }
+
+    /* SEZIONE testimonials */
+    #testimonials .card-test .img-test {
+        width: 100%;
+    }
+    
+    .img-test img {
+        width: 50%;
     }
 
     /* SEZIONE benefits */

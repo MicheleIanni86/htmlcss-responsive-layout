@@ -199,7 +199,6 @@ nav div :last-child {
     margin-bottom: 80px;
 }
 
-
 #strategies .container .planning,
 #strategies .container .app {
     padding: 15px;
@@ -246,9 +245,6 @@ nav div :last-child {
     margin-bottom: 30px;
 }
 
-
-
-
 .container .app :last-child {
     width: 50px;
     height: 50px;
@@ -258,29 +254,76 @@ nav div :last-child {
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 15px;
-  }
+}
+
+
 
 
 /* SECTION TESTIMONIALS */
+#testimonials {
+    margin-bottom: 80px;
+}
+
 #testimonials .intro {
     text-align: center;
     margin-top: 30px;
-    line-height: 50px;
-  }
+    line-height: 70px;
+}
+
+#testimonials .intro h2 {
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+#testimonials .intro :last-child {
+    line-height: 30px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+#testimonials .card-test .img-test {
+    width: 15%;
+
+}
+
+.img-test img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 50%;
+   
+}
 
 #testimonials .card-test {
     display: flex;
     width: 100%;
-    padding: 15px;
+    padding: 25px;
     margin: 35px 0;
     background-color: var(--primary-color);
+    border-radius: 30px;
 }
 
 .card-test .descriptions-test {
-    margin-left: 15px;
+    width: 70%;
+    margin: 0 auto;
     color: white;
+    align-self: center;
 }
 
+.card-test .descriptions-test p {
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.card-test .descriptions-test h3 {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.card-test .descriptions-test span {
+    font-size: 30px;
+}
 
 /* SECTION BENEFITS */
 
